@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+/* flexbox */
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 2500px;
+}
+
+.section {
+  flex: 20;
+  display: flex;
+  height: 200px;
+  background-color: white;
+}
+
+.one, .two {
+  flex-direction: column;
+}
+
+/* background */
+.one, .five {
+  background-color: #1f2937;
+  width: 100%;
+}
+
+.three {
+  background-color: #e5e7eb;
+}
+
+/* size */
+.four {
+  flex: 18;
+}
+
+.five {
+  flex: 5;
+}
