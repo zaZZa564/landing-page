@@ -9,14 +9,12 @@ body {
   flex-direction: column;
   height: 2500px;
 }
-
 .section {
   flex: 20;
   display: flex;
   height: 200px;
   background-color: white;
 }
-
 .one, .two {
   flex-direction: column;
 }
@@ -26,7 +24,6 @@ body {
   background-color: #1f2937;
   width: 100%;
 }
-
 .three {
   background-color: #e5e7eb;
 }
@@ -35,7 +32,35 @@ body {
 .four {
   flex: 18;
 }
-
 .five {
   flex: 5;
+}
+
+/* one section */
+.one-up {
+  display: flex;
+  flex: 1;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.one-down {
+  display: flex;
+  flex: 4;
+}
+.one-up-left {
+  flex: 4;
+}
+.one-up-right {
+  flex: 3;
+  display: flex;
+  justify-content: left;
+}
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.header-link {
+  font-size: 18px;
+  color: #e5e7eb;
+  flex: 1;
 }
