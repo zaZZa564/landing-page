@@ -160,3 +160,22 @@ body {
   color: #666666;
   text-align: center;
 }
+
+/* three section */
+.three {
+  padding-left: 27%;
+  padding-right: 27%;
+  flex-direction: column;
+  justify-content: center;
+}
+.three-1 {
+  font-size: 36px;
+  color: #666666;
+  font-style: italic;
+}
+.three-2 {
+  text-align: end;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
