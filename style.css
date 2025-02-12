@@ -226,3 +226,13 @@ body {
   color: #f9faf8;
   border-radius: 4px;
 }
+.five {
+  display: flex;
+  align-items: center;
+}
+.five-p {
+  flex: 1;
+  color: #f9faf8;
+  font-size: 18px;
+  text-align: center;
+}
