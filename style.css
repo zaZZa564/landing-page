@@ -179,3 +179,50 @@ body {
   color: #1f2937;
   font-weight: 900;
 }
+/* four section */
+.four-blue {
+  display: flex;
+  flex: 1;
+  margin-top: 180px;
+  margin-bottom: 180px;
+  border-radius: 20px;
+  background-color: #3882f6;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+.four-p-div{
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  justify-content: center;
+}
+.four-p1{
+  flex: 1;
+  font-size: 24px;
+  color: #f9faf8;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  margin-left: 120px;
+}
+.four-p2{
+  flex: 1;
+  font-size: 18px;
+  color: #dfdfdf;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  margin-left: 120px;
+}
+.four-button-div{
+  display: flex;
+  flex: 1;
+}
+.four-button{
+  flex: 1;
+  margin: 70px;
+  margin-right: 90px;
+  background-color: transparent;
+  border: 3px solid #f9faf8;
+  font-size: 18px;
+  color: #f9faf8;
+  border-radius: 4px;
+}
